@@ -1,0 +1,86 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/patrol.dir/src/patrol.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:107:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+  107 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:7:36:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+    7 | class Patrol : public rclcpp::Node [01;36m[K{[m[K
+      |                                    [01;36m[K^[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:10:25:[m[K [01;31m[Kerror: [m[Kclass '[01m[KPatrol[m[K' does not have any field named '[01m[Kkp_[m[K'
+   10 |       : Node("patrol"), [01;31m[Kkp_[m[K(0.35), safety_margin_(0.25), direction_(0.0),
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:10:36:[m[K [01;31m[Kerror: [m[Kclass '[01m[KPatrol[m[K' does not have any field named '[01m[Ksafety_margin_[m[K'
+   10 |       : Node("patrol"), kp_(0.35), [01;31m[Ksafety_margin_[m[K(0.25), direction_(0.0),
+      |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:10:58:[m[K [01;31m[Kerror: [m[Kclass '[01m[KPatrol[m[K' does not have any field named '[01m[Kdirection_[m[K'
+   10 | trol"), kp_(0.35), safety_margin_(0.25), [01;31m[Kdirection_[m[K(0.0),
+      |                                          [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:11:9:[m[K [01;31m[Kerror: [m[Kclass '[01m[KPatrol[m[K' does not have any field named '[01m[Kobstacle_detected_[m[K'
+   11 |         [01;31m[Kobstacle_detected_[m[K(false) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:13:5:[m[K [01;31m[Kerror: [m[K'[01m[Klaser_subscriber_[m[K' was not declared in this scope
+   13 |     [01;31m[Klaser_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:18:5:[m[K [01;31m[Kerror: [m[K'[01m[Kvelocity_publisher_[m[K' was not declared in this scope; did you mean '[01m[Kcount_publishers[m[K'?
+   18 |     [01;31m[Kvelocity_publisher_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_publishers[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:22:5:[m[K [01;31m[Kerror: [m[K'[01m[Ktimer_[m[K' was not declared in this scope; did you mean '[01m[Ktimer_t[m[K'?
+   22 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(100),
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In member function '[01m[Kvoid Patrol::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:31:48:[m[K [01;31m[Kerror: [m[K'[01m[Ksafety_margin_[m[K' was not declared in this scope
+   31 |   const float min_safe_distance = 0.35 + [01;31m[Ksafety_margin_[m[K;  // Include safety margin
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:38:9:[m[K [01;31m[Kerror: [m[K'[01m[Kobstacle_detected_[m[K' was not declared in this scope
+   38 |         [01;31m[Kobstacle_detected_[m[K = false;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:69:9:[m[K [01;31m[Kerror: [m[K'[01m[Kdirection_[m[K' was not declared in this scope
+   69 |         [01;31m[Kdirection_[m[K = obstacle_detected_ ? min_distance_angle : 0.0;
+      |         [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:2[m[K:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In member function '[01m[Kvoid Patrol::controlLoop()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:75:21:[m[K [01;31m[Kerror: [m[K'[01m[Kobstacle_detected_[m[K' was not declared in this scope
+   75 |                     [01;31m[Kobstacle_detected_[m[K ? "true" : "false");
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:78:14:[m[K [01;31m[Kerror: [m[K'[01m[Kobstacle_detected_[m[K' was not declared in this scope
+   78 |         if (![01;31m[Kobstacle_detected_[m[K) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:84:17:[m[K [01;31m[Kerror: [m[K'[01m[Kmin_distance[m[K' was not declared in this scope
+   84 |             if ([01;31m[Kmin_distance[m[K > safety_margin_) {
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:84:32:[m[K [01;31m[Kerror: [m[K'[01m[Ksafety_margin_[m[K' was not declared in this scope
+   84 |             if (min_distance > [01;31m[Ksafety_margin_[m[K) {
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:87:33:[m[K [01;31m[Kerror: [m[K'[01m[Kkp_[m[K' was not declared in this scope
+   87 |                 msg.angular.z = [01;31m[Kkp_[m[K * direction_; // Use proportional control for angular velocity
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:87:39:[m[K [01;31m[Kerror: [m[K'[01m[Kdirection_[m[K' was not declared in this scope
+   87 |                 msg.angular.z = kp_ * [01;31m[Kdirection_[m[K; // Use proportional control for angular velocity
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:95:9:[m[K [01;31m[Kerror: [m[K'[01m[Kvelocity_publisher_[m[K' was not declared in this scope; did you mean '[01m[Kcount_publishers[m[K'?
+   95 |         [01;31m[Kvelocity_publisher_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_publishers[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K At global scope:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:107:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  107 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/patrol.dir/build.make:76: CMakeFiles/patrol.dir/src/patrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/patrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

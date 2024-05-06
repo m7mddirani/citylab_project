@@ -1,0 +1,81 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/patrol.dir/src/patrol.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:84:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::kp_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |   float [01;35m[Kkp_[m[K; // Proportional gain for angular velocity
+      |         [01;35m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:83:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::safety_margin_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   83 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:83:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::safety_margin_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   83 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:82:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::direction_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   82 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:82:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::direction_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   82 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:81:8:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool Patrol::obstacle_detected_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   81 |   bool [01;35m[Kobstacle_detected_[m[K;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In member function '[01m[Kvoid Patrol::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:55:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kmin(float&, double)[m[K'
+   55 |         -M_PI / 2, [01;31m[Kstd::min(max_distance_angle, static_cast<double>(M_PI / 2))[m[K);
+      |                    [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:61[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K'
+  230 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:55:28:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter '[01m[Kconst _Tp[m[K' ('[01m[Kfloat[m[K' and '[01m[Kdouble[m[K')
+   55 |         -M_PI / 2, [01;36m[Kstd::min(max_distance_angle, static_cast<double>(M_PI / 2))[m[K);
+      |                    [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:61[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K'
+  278 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:55:28:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter '[01m[Kconst _Tp[m[K' ('[01m[Kfloat[m[K' and '[01m[Kdouble[m[K')
+   55 |         -M_PI / 2, [01;36m[Kstd::min(max_distance_angle, static_cast<double>(M_PI / 2))[m[K);
+      |                    [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K'
+ 3449 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:55:28:[m[K [01;36m[Knote: [m[K  mismatched types '[01m[Kstd::initializer_list<_Tp>[m[K' and '[01m[Kfloat[m[K'
+   55 |         -M_PI / 2, [01;36m[Kstd::min(max_distance_angle, static_cast<double>(M_PI / 2))[m[K);
+      |                    [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/home/simulations/ros2_sims_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K'
+ 3455 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:55:28:[m[K [01;36m[Knote: [m[K  mismatched types '[01m[Kstd::initializer_list<_Tp>[m[K' and '[01m[Kfloat[m[K'
+   55 |         -M_PI / 2, [01;36m[Kstd::min(max_distance_angle, static_cast<double>(M_PI / 2))[m[K);
+      |                    [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/patrol.dir/build.make:76: CMakeFiles/patrol.dir/src/patrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/patrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

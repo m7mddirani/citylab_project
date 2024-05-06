@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/robot_patrol
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/package_run_dependencies/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/parent_prefix_path/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/packages/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.xml

@@ -1,0 +1,56 @@
+[0.032s] Invoking command in '/home/user/ros2_ws/build/robot_patrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_patrol -- -j8 -l8
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target patrol[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/patrol.dir/src/patrol.cpp.o[0m
+[3.057s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[3.057s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:68:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::kp_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.057s]    68 |   float [01;35m[Kkp_[m[K; // Proportional gain for angular velocity
+[3.057s]       |         [01;35m[K^~~[m[K
+[3.057s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:67:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::safety_margin_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.057s]    67 |   float [01;35m[Ksafety_margin_[m[K;
+[3.057s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.058s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.058s]     8 |   [01;35m[KPatrol[m[K()
+[3.058s]       |   [01;35m[K^~~~~~[m[K
+[3.058s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:67:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::safety_margin_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.058s]    67 |   float [01;35m[Ksafety_margin_[m[K;
+[3.058s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.058s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:66:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::direction_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.058s]    66 |   float [01;35m[Kdirection_[m[K;
+[3.058s]       |         [01;35m[K^~~~~~~~~~[m[K
+[3.058s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.058s]     8 |   [01;35m[KPatrol[m[K()
+[3.059s]       |   [01;35m[K^~~~~~[m[K
+[3.059s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:66:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::direction_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.059s]    66 |   float [01;35m[Kdirection_[m[K;
+[3.059s]       |         [01;35m[K^~~~~~~~~~[m[K
+[3.059s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:65:8:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool Patrol::obstacle_detected_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.059s]    65 |   bool [01;35m[Kobstacle_detected_[m[K;
+[3.059s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.059s] [01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.059s]     8 |   [01;35m[KPatrol[m[K()
+[3.059s]       |   [01;35m[K^~~~~~[m[K
+[11.405s] [100%] [32m[1mLinking CXX executable patrol[0m
+[11.935s] [100%] Built target patrol
+[11.965s] Invoked command in '/home/user/ros2_ws/build/robot_patrol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_patrol -- -j8 -l8
+[12.185s] Invoking command in '/home/user/ros2_ws/build/robot_patrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_patrol
+[12.202s] -- Install configuration: ""
+[12.202s] -- Installing: /home/user/ros2_ws/install/robot_patrol/lib/robot_patrol/patrol
+[12.213s] -- Set runtime path of "/home/user/ros2_ws/install/robot_patrol/lib/robot_patrol/patrol" to ""
+[12.213s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol//launch
+[12.214s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol//launch/start_patrolling.launch.py
+[12.214s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/package_run_dependencies/robot_patrol
+[12.214s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/parent_prefix_path/robot_patrol
+[12.215s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.sh
+[12.215s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.dsv
+[12.215s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.sh
+[12.216s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.dsv
+[12.216s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.bash
+[12.216s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.sh
+[12.217s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.zsh
+[12.217s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.dsv
+[12.217s] -- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.dsv
+[12.218s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/packages/robot_patrol
+[12.218s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig.cmake
+[12.218s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig-version.cmake
+[12.219s] -- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.xml
+[12.222s] Invoked command in '/home/user/ros2_ws/build/robot_patrol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_patrol

@@ -1,0 +1,41 @@
+[0.063s] Invoking command in '/home/user/ros2_ws/build/robot_patrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_patrol -- -j8 -l8
+[0.108s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.791s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.848s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.892s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.685s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.722s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.509s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.598s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.010s] -- Looking for pthread.h
+[3.909s] -- Looking for pthread.h - found
+[3.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.125s] -- Found Threads: TRUE  
+[4.931s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.302s] -- Found sensor_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[5.638s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[5.638s]   By not providing "Findcustom_interfaces.cmake" in CMAKE_MODULE_PATH this
+[5.638s]   project has asked CMake to find a package configuration file provided by
+[5.638s]   "custom_interfaces", but CMake did not find one.
+[5.638s] 
+[5.638s]   Could not find a package configuration file provided by "custom_interfaces"
+[5.638s]   with any of the following names:
+[5.639s] 
+[5.639s]     custom_interfacesConfig.cmake
+[5.639s]     custom_interfaces-config.cmake
+[5.639s] 
+[5.639s]   Add the installation prefix of "custom_interfaces" to CMAKE_PREFIX_PATH or
+[5.639s]   set "custom_interfaces_DIR" to a directory containing one of the above
+[5.639s]   files.  If "custom_interfaces" provides a separate development package or
+[5.640s]   SDK, be sure it has been installed.
+[5.640s] 
+[5.640s] [0m
+[5.640s] -- Configuring incomplete, errors occurred!
+[5.640s] See also "/home/user/ros2_ws/build/robot_patrol/CMakeFiles/CMakeOutput.log".
+[5.655s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[5.655s] Invoked command in '/home/user/ros2_ws/build/robot_patrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_patrol -- -j8 -l8

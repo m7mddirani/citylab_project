@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/patrol.dir/src/patrol.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:110:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::kp_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  110 |   float [01;35m[Kkp_[m[K; // Proportional gain for angular velocity
+      |         [01;35m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:109:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::safety_margin_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  109 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:109:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::safety_margin_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  109 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:108:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::direction_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  108 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:108:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::direction_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  108 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:107:8:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool Patrol::obstacle_detected_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |   bool [01;35m[Kobstacle_detected_[m[K;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable patrol[0m
+[100%] Built target patrol
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/robot_patrol/lib/robot_patrol/patrol
+-- Set runtime path of "/home/user/ros2_ws/install/robot_patrol/lib/robot_patrol/patrol" to ""
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol//launch
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol//launch/start_patrolling.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/package_run_dependencies/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/parent_prefix_path/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/ament_index/resource_index/packages/robot_patrol
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/cmake/robot_patrolConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robot_patrol/share/robot_patrol/package.xml

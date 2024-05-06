@@ -1,0 +1,35 @@
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:109:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::kp_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  109 |   float [01;35m[Kkp_[m[K; // Proportional gain for angular velocity
+      |         [01;35m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:108:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::safety_margin_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  108 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:108:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::safety_margin_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  108 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:107:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::direction_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:107:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::direction_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |   float [01;35m[Kdirection_[m[K; // Direction of rotation in radians
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:106:8:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool Patrol::obstacle_detected_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  106 |   bool [01;35m[Kobstacle_detected_[m[K;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:9:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In member function '[01m[Kvoid Patrol::controlLoop()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:84:17:[m[K [01;31m[Kerror: [m[K'[01m[Kmin_distance[m[K' was not declared in this scope
+   84 |             if ([01;31m[Kmin_distance[m[K > safety_margin_) {
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/patrol.dir/build.make:76: CMakeFiles/patrol.dir/src/patrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/patrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

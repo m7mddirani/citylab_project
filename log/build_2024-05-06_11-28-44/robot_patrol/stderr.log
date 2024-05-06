@@ -1,0 +1,32 @@
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In constructor '[01m[KPatrol::Patrol()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:70:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::kp_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   70 |   float [01;35m[Kkp_[m[K; // Proportional gain for angular velocity
+      |         [01;35m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:69:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::safety_margin_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   69 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:69:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::safety_margin_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   69 |   float [01;35m[Ksafety_margin_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:68:9:[m[K [01;35m[Kwarning: [m[K  '[01m[Kfloat Patrol::direction_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   68 |   float [01;35m[Kdirection_[m[K; // Direction of rotation: 1.0 for clockwise, -1.0 for counterclockwise
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:68:9:[m[K [01;35m[Kwarning: [m[K'[01m[KPatrol::direction_[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   68 |   float [01;35m[Kdirection_[m[K; // Direction of rotation: 1.0 for clockwise, -1.0 for counterclockwise
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:67:8:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool Patrol::obstacle_detected_[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |   bool [01;35m[Kobstacle_detected_[m[K;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:8:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 |   [01;35m[KPatrol[m[K()
+      |   [01;35m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:[m[K In member function '[01m[Kvoid Patrol::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/home/user/ros2_ws/src/robot_patrol/src/patrol.cpp:38:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<float>::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   38 |         direction_ = ([01;35m[Ki < msg->ranges.size() / 2[m[K) ? 1.0 : -1.0;
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
